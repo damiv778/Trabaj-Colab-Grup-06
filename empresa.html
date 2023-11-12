@@ -1,32 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa de Comidas "Buen Gusto"</title>
-</head>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="./estilos/nosotros.css">
+      <title>Empresa</title>
+  </head>
+  
 <body>
-<Nav>
-    <ul>
-    <li><a href="./index.html">HOME</a>
-    </li>
-    <li><a href="./ventas.html">VENTAS</a>
-    </li>
- <li><a href="./productos.html">PRODUCTOS </a>
-</li>
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light pt-4">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Inicio<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="./empresa.html">Empresa<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="./productos.html">Productos<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="./nosotros.html">Sobre nosotros<span class="sr-only"></span></a>
+              </li>
+          </ul>
+          <a class="nav-link-boton" href="./ventas.html"><button class="miBoton btn my-2 my-sm-0 p-2"
+                  type="submit">Comunicate con Ventas</button></a>
+      </div>
+  </nav>
+
+
+
+
+   <main>
+      <div class="d-flex div-nosotros p-5  rounded">
+          <div class=" w-50">
+              <img src="./assets/nosotros.jpg" class="img-fluid rounded" alt="Responsive image">
+          </div>
+          <div class="text-left pl-5 pt-5 d-flex flex-column">
+<h1>  "BUEN GUSTO"</h1>
    
-    
-</li>
-    <ul>
-     
- </nav>
-   
-   <header>
-<h1> CASA DE COMIDAS  "BUEN GUSTO"</h1>
-   </header>
 
    <h2> UNA EMPRESA DEDICADA A SUS CLIENTES</h2>
-   <p> Todo empezó a especializarse en sándwiches, pizzas y empanadas  (el producto más popular es la Hamburguesa con bacon y cebolla caramelizada) comenzó a tomar protagonismo 
+   
+   <p> Empezamos a especializarnos en sándwiches, pizzas y empanadas  (el producto más popular es la Hamburguesa con bacon y cebolla caramelizada) comenzó a tomar protagonismo 
     en los prospectos que lo elegían como un lugar obligado de reunión para amigos y familias, donde cada cliente empezaba a notar desde su elaboración, 
     tamaño y sabor algo distintivo con sello propio marcando una diferenciación en el mercado misionero.</p>
 
@@ -41,24 +67,99 @@
             Nos enorgullece poder trabajar juntos para poder hacer realidad
              esos sueños y contribuir al desarrollo de nuestra comunidad."
 
-            
-
-
-         
-      
-    
+   
 
 
         <h2> NUESTRO LOCAL - MAPA </h2>
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4040.69899261300134!2d-55.7533789553102!3d-27.91449525850338!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1698270639468!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-      </iframe>
+      
+   </div>
+</div>
+</div>
 
-   
-<header>
-   <footer>
-      <li>
-         <a href="./nosotros.html">Nosotros</a></li>
-   </footer>
+   </div>
+   <div class="div-form p-5">
+       <h2 class="text-center  pb-3">CONTACTO</h2>
+       <div class="d-flex justify-content-center flex-wrap">
+           <div>
+               <h5 class="text-center pl-5 pr-5">Avenida del Marqués de Corbera, 61, Apóstoles, Misiones <br>
+                   local 3</h5>
+               <p class="text-center">
+                   Numero de telefono: <a href="">3764-55562</a>
+               </p>
+               <p class="text-center">
+                   Contactos: <a href="">buengusto@gmail.com</a>
+               </p>
+               <div class="text-center">
+                   <a class="btn btn-outline-dark btn-floating m-1 text-center" href="#!" role="button"><i
+                       class="fab fa-facebook-f"></i></a>
+                       
+               <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i
+                       class="fab fa-instagram"></i></a>
+
+               </div>
+      
+           </div>
+           <form>
+               <div class="row mb-4">
+                   <div class="col">
+                       <div class="form-outline">
+                           <input type="text" id="nombre" class="form-control p-3" placeholder="Nombre" />
+                       </div>
+                   </div>
+                   <div class="col">
+                       <div class="form-outline">
+                           <input type="text" id="telefono" class="form-control p-3" placeholder="Teléfono" />
+                       </div>
+                   </div>
+               </div>
+
+               <div class="form-outline mb-4">
+                   <input type="email" id="form3Example3" class="form-control p-3"
+                       placeholder="Dirección de correo electrónico" />
+               </div>
+
+               <div class="form-outline mb-4">
+                   <input type="text" id="mesaje" class="form-control mensaje" placeholder="Mensaje" />
+               </div>
+               <button type="submit" class="btn btn-block mb-4 p-2 form-miBoton">CONTACTO</button>
+           </form>
+       </div>
+
+   </div>
+</main>
+<footer class="text-center text-white">
+   <div class="d-flex p-4 pb-0">
+       <section class="mb-4">
+           <!-- Facebook -->
+           <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                   class="fab fa-facebook-f"></i></a>
+
+           <!-- Twitter -->
+           <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                   class="fab fa-twitter"></i></a>
+
+           <!-- Instagram -->
+           <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                   class="fab fa-instagram"></i></a>
+       </section>
+   </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+   integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+   crossorigin="anonymous"></scripimg>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+   integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+   crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+   crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/dcc8499c7a.js" crossorigin="anonymous"></script>
 </body>
+
+      
+
+
 </html>

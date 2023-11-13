@@ -1,49 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo Colaborativo - Grupo N° 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/index.css">
 </head>
+
 <body>
     <ing>
-
-    
-
-
         <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="./index.html">HOME</a></li>
-                    <li>
-                        <a href="./empresa.html">Empresa</a></li>
-                    <li>
-                        <a href="./productos.html">Productos</a></li>
-                    <li>
-                    <a href="./ventas.html">Ventas</a></li>
-                </ul>
-            </nav>
-            <hr>
-            <H1>COMIDAS "BUEN GUSTO"</H1>
-            <img src="./assets/Captura.PNG" alt="banner">
-        </header>
-        
-<main>
-    <h3>RÁPIDO Y PARA TODOS</h3>
-    <p>Experiencia unica y variada pensando en el tiempo limitado de nuestros clientes</p>
-    <h3>SALUDABLE</h3>
-    <P>Ingredientes frescos y saludables sin aditivos ni conservantes.</P>
-    <h3>DELICIOSO</h3>
-    <p>Exquisistas salasa que van desde las más tradicionales hasta las mas módernas e innovadoras.</p>
-</main>
-<hr>
-<footer> 
-    <h4>Contactos: buengusto@gmail.com</h4>
-    <h4> Numero de telefono: 3764-555621</h4>
-    <li>
-        <a href="./nosotros.html">Nosotros</a></li>
-</footer>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light pt-4 fixed-top">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Inicio<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./empresa.html">Empresa<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./productos.html">Productos<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./nosotros.html">Sobre nosotros<span class="sr-only"></span></a>
+                        </li>
+                    </ul>
+                    <a class="nav-link-boton" href="./ventas.html"><button class="miBoton btn my-2 my-sm-0 p-2"
+                            type="submit">Comunicate con Ventas</button></a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <div class="card text-bg-dark mt-5">
+                <img src="./assets/1.jpg" class="card-img" alt="...">
+                <div
+                    class="card-img-overlay texto-imagen d-flex  justify-content-center align-items-center flex-column">
+                    <div class="tarjeta-banner">
+                        <h1 class="card-title display-3">¡Bienvenido a BUEN GUSTO!</h1>
+                    </div>
+                    <h2 class="card-text mt-4">BUENA COMIDA Y BUENA VIBRA.</h2>
+                    <div class="d-flex mt-4">
+                        <a href="#formulario" class="btn boton-reserva mr-5 pt-3 pb-3 pl-4 pr-4">RESERVA</a>
+                        <a href="./productos.html" class="btn boton-menu ml-5 pt-3 pb-3 pl-4 pr-4">MENÚ</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="menu-color p-4">
+                <div class="card mb-3 container p-3">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                            <img src="./assets/pizza.jpg" class="img-fluid rounded-start " alt="...">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza con champiñones</h5>
+                                <p class="card-text"><small class="text-body-secondary">$3.100,00</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 container p-3">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                            <img src="./assets/hamburguesa.jpg" class="img-fluid rounded-start" alt="...">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Hamburguesa doble completa</h5>
+                                <p class="card-text"><small class="text-body-secondary">$2.600,00</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card container p-3">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                            <img src="./assets/empanada.jpg" class="img-fluid rounded-start" alt="...">
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Empanadas de carne</h5>
+                                <p class="card-text"><small class="text-body-secondary">$3.000,00</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="./productos.html"><button type="button" class="btn boton-form mt-5 t">Ver más</button></a>
+                </div>
+
+            </div>
+
+            <div id="formulario" class="div-form p-5">
+                <h2 class="text-center  pb-3">CONTACTO</h2>
+
+                <div class="container d-flex justify-content-around flex-wrap mt-3">
+                    <div>
+                        <h5 class="">Horarios de atención</h5>
+                        <p class="">
+                            Martes <br>
+                            17:00-22:30<br>
+                            Jueves<br>
+                            17:00-22:30<br>
+                            Viernes<br>
+                            17:00-23:00<br>
+                        </p>
+
+                    </div>
+                    <form class="formulario p-4 rounded">
+                        <div class="form-group">
+                            <label for="1">Número de personas</label>
+                            <input type="number" class="form-control" id="1" placeholder="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="fecha">Fecha de reserva</label>
+                            <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Fecha">
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Hora de la reserva</label>
+                            <input type="time" id="time">
+                        </div>
+                        <button type="submit" class="btn boton-form w-100">RESERVAR</button>
+                    </form>
+
+
+                </div>
+
+            </div>
+        </main>
+        <footer class="text-center text-white ">
+            <div class="d-flex">
+                <section class="m-3">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-twitter"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-instagram"></i></a>
+                </section>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/dcc8499c7a.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

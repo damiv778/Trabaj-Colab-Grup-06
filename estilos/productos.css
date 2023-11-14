@@ -18,49 +18,20 @@
     background-color: rgb(206, 114, 1);
 }
 
-.div-nosotros {
-    background-color: var(--color2);
-    color: white;
-}
 
-.img-fluid {
-    height: auto;
-}
-
-.div-cards{
+.menu-color{
     background-color: var(--color1);
 }
 
-.card-body{
-    background-color: var(--color2);
-    color: white;
-}
-
-.div-form{
-    background-color: var(--color1-1);
-}
-
-.div-form div p a{
-    color: var(--color3);
-}
-.div-form div p{
-    color: var(--color3);
-}
-
-.mensaje{
-    height: 100px;
-}
-
-.form-miBoton{
+.boton-menu {
     background-color: var(--color3);
     color: white;
 }
 
-.form-miBoton:hover{
-    color: white;
+.boton-menu:hover{
     background-color: rgb(206, 114, 1);
+    color: white;
 }
-
 
 footer {
     background-color: var(--color2);

@@ -4,30 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sector Ventas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/productos.css">
 </head>
 <body>
-    <header>
-        <nav> 
-            <ul>
-            <li><a href="./index.html">HOME</a>
-            </li>
-            <li><a href="./empresa.html">empresa</a>
-            </li>
-            <li><a href="./productos.html">productos</a>
-            </li>
-            <ul>
+    <header style="margin: 25px;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light pt-4 fixed-top">
+            <a class="navbar-brand" href="#"><img src="./assets/logo_50x50.png" alt="LOGO"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Inicio<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./empresa.html">Empresa<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./productos.html">Productos<span class="sr-only"></span></a>
+                    </li>
+            </div>
         </nav>
     </header>
+
+<main>
+    <div class="div-form p-5">
+        <h2 class="text-center  pb-4"><img src="./assets/registrate.png" alt="Click en la Imagen para Registrar tus datos"></h2>
+        <div class="d-flex justify-content-center flex-wrap">
+            <div>
+                <h5 class="text-center pl-5 pr-5">Envianos tu CV a:</h5>
+                <p class="text-center">
+                    Nuestro Whatsapp: <a href="">3764 55562</a>
+                </p>
+                <p class="text-center">
+                    Email: <a href="">buengusto@gmail.com</a>
+                </p>
+            </div>
+            <form>
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="text" id="nombre" class="form-control p-3" placeholder="Apellido y Nombres" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="text" id="telefono" class="form-control p-3" placeholder="Teléfono / Whatsapp" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="email" id="form3Example3" class="form-control p-3"
+                        placeholder="Dirección de correo electrónico" />
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="text" id="mesaje" class="form-control mensaje" placeholder="Contanos por qué queres trabajar con nosotros" />
+                </div>
+                <button type="submit" class="btn btn-block mb-4 p-2 form-miBoton">Enviar</button>
+            </form>
+        </div>
+    </div>
+</main>
 <hr>
-    <H1> Seccion de VENTAS de la Empresa </H1>
-    <h3>Numeros de contactos: 3764-555621 </h3>
-    <h3> Trabaja con nosotros</h3>
-    <h4>REGISTRATE AQUÍ</h4>
-    <img src="./assets/registrate.png" alt="Click en la Imagen para Registrar tus datos">
-<footer>
-<hr>
-    <li>
-        <a href="./nosotros.html">Nosotros</a></li>
+<footer class="text-center text-white">
+    <div class="d-flex ">
+        <section class="m-3">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-twitter"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-instagram"></i></a>
+        </section>
+    </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dcc8499c7a.js" crossorigin="anonymous"></script>
 </body>
 </html>

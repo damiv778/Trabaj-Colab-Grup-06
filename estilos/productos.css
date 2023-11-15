@@ -6,7 +6,10 @@
 
 }
 
-
+.logo {
+    width: 40px;
+    height: 40px;
+}
 
 .miBoton {
     background-color: var(--color3);
